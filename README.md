@@ -52,7 +52,7 @@ var
   notepad.Focus;
 ```
 
-This will find (it is there) a window that has the given title, and set focus to it. This window is independant of the overalll application, and might not even be associated with the same application that is being automated.
+This will find (it is there) a window that has the given title, and set focus to it. This window is independant of the overall application, and might not even be associated with the same application that is being automated.
 
 To get an 'application' window, i.e. one associated with another window, first the parent window must be found, and then the target child can be found using the ''Window'' method. In the example below, the child window 'Security' of the notepad window is searched for.
 
@@ -89,7 +89,7 @@ var
   btnOk.Click;
 ```
 
-# Current supported controls
+# Currently supported controls
 
 The currently supported controls are ...
 
